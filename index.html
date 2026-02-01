@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipZone - Upside-Down Museum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="ltr">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <img src="https://via.placeholder.com/150x50?text=FlipZone+Logo" alt="FlipZone Logo" class="logo">
+                <span id="brand-name">FlipZone</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero" id="nav-home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" id="nav-about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#flip-rooms" id="nav-flip-rooms">Flip Rooms</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#anti-gravity" id="nav-anti-gravity">Anti-Gravity Room</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#flip-cafe" id="nav-flip-cafe">Flip Café</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vr-experience" id="nav-vr">VR Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing" id="nav-pricing">Pricing</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light translate-btn" id="translate-btn">العربية / English</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 id="hero-title">Welcome to FlipZone</h1>
+            <p id="hero-subtitle">Experience the upside-down museum where gravity disappears!</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="FlipZone Video" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="#about" class="btn btn-light" id="learn-more">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 id="about-title">About Us</h2>
+            <p id="about-text">FlipZone is a revolutionary museum where the laws of physics are defied. Step into rooms where gravity vanishes, enjoy anti-gravity thrills, dine in a café that defies orientation, and immerse in VR worlds. Our mission is to turn your perception of reality upside down!</p>
+        </div>
+    </section>
+
+    <!-- Flip Rooms Section -->
+    <section id="flip-rooms" class="section">
+        <div class="container">
+            <h2 id="flip-rooms-title">Flip Rooms</h2>
+            <p id="flip-rooms-text">Explore interactive rooms where everything is flipped. Walk on ceilings and defy gravity in our signature exhibits.</p>
+            <i class="fas fa-home fa-3x text-primary"></i>
+        </div>
+    </section>
+
+    <!-- Anti-Gravity Room Section -->
+    <section id="anti-gravity" class="section">
+        <div class="container">
+            <h2 id="anti-gravity-title">Anti-Gravity Room</h2>
+            <p id="anti-gravity-text">Float freely in our anti-gravity chamber. Experience zero-G sensations without leaving Earth.</p>
+            <i class="fas fa-rocket fa-3x text-success"></i>
+        </div>
+    </section>
+
+    <!-- Flip Café Section -->
+    <section id="flip-cafe" class="section">
+        <div class="container">
+            <h2 id="flip-cafe-title">Flip Café</h2>
+            <p id="flip-cafe-text">Enjoy upside-down dining with gravity-defying food and drinks. A unique culinary experience!</p>
+            <i class="fas fa-utensils fa-3x text-warning"></i>
+        </div>
+    </section>
+
+    <!-- VR Experience Section -->
+    <section id="vr-experience" class="section">
+        <div class="container">
+            <h2 id="vr-title">VR Experience</h2>
+            <p id="vr-text">Immerse yourself in virtual realities that blend with our museum's theme. Explore infinite possibilities.</p>
+            <i class="fas fa-vr-cardboard fa-3x text-info"></i>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+        <div class="container">
+            <h2 id="pricing-title">Pricing</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="basic-title">Basic Entry</h5>
+                            <p class="card-text" id="basic-text">$20 - Access to Flip Rooms and Anti-Gravity Room.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="premium-title">Premium</h5>
+                            <p class="card-text" id="premium-text">$35 - Includes VR Experience and Flip Café.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="vip-title">VIP</h5>
+                            <p class="card-text" id="vip-text">$50 - All areas with priority access.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Book Now -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p id="footer-text">&copy; 2023 FlipZone. All rights reserved.</p>
+            <a href="https://wa.me/1234567890?text=I'd%20like%20to%20book%20a%20visit%20to%20FlipZone" class="btn book-now" id="book-now-btn">
+                <i class="fab fa-whatsapp"></i> Book Now
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
